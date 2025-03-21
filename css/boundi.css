@@ -11,10 +11,15 @@
     font-family: "Roboto", sans-serif;
   }
   .main-btn {
-    background-color: var(--red-color);
-    color: var(--blue-color);
+    background-color: var(--blue-color);
+    color: var(--section-color);
     padding: 0.5rem 1rem;
-  }
+    border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px; 
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   .main-btn:hover {
     color: var(--blue-color);
   }
@@ -88,9 +93,14 @@
     background-color: var(--section-color);
   }
   .our-work ul .active {
-    background-color: var(--red-color);
-    color: var(--blue-color);
-  }
+    background-color: var(--blue-color);
+    color: var(--section-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
   .our-work ul li {
     padding: 0.5rem 1rem;
     cursor: pointer;
@@ -135,11 +145,25 @@
   .team {
     background-color: var(--section-color);
   }
+  .team .box {
+    border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    -moz-border-radius: 0 0 8px 8px;
+    -ms-border-radius: 0 0 8px 8px;
+    -o-border-radius: 0 0 8px 8px;
+}
+  .team .img-fluid {
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -ms-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
+}
   .team h2 {
     color: var(--blue-color);
   }
   .team .box h4 {
-    background-color: var(--orange-color);
+    background-color: var(--blue-color);
   }
   /* End Team */
   /* Start Project */
@@ -151,19 +175,23 @@
   .subscribe {
     background-color: var(--blue-color);
   }
+  .subscribe .sub {
+    color: var(--section-color);
+    margin-bottom: 8px;
+  }
   .subscribe input[type="text"] {
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid  var(--section-color);
   }
   .subscribe input[type="text"]:focus {
     outline: none;
   }
   .subscribe ::placeholder {
-    color: white;
+    color:  var(--section-color);
   }
   .subscribe input[type="submit"] {
-    background-color: var(--dark-color);
-    color: var(--blue-color);
+    background-color: #2a2d33;
+    color: var(--section-color);
   }
   /* End Subscribe */
   /* Start Footer */
